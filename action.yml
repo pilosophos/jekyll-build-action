@@ -6,3 +6,8 @@ runs:
 branding:
   icon: 'book-open'
   color: 'white'
+inputs:
+  jekyll-config:
+    description: Jekyll _config.yml files to build with
+    required: false
+    default: "_config.yml"
