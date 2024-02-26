@@ -15,7 +15,7 @@ chmod -R a+w /github/workspace
 # Build the Jekyll site
 ####################################################
 
-jekyll build --trace --config $INPUT_JEKYLL-CONFIG
+jekyll build --trace --config $INPUT_CONFIG
 
 ####################################################
 # Build completed
